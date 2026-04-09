@@ -9,10 +9,17 @@ This repository contains the pure Deep Learning (DL) core of the EtaNexus v6.1 p
 - **SimpleMLP**: A non-graph baseline used to quantify the "Graph Gain" (structural vs semantic signal).
 
 ## 📊 Industrial Benchmark Suite
-The project utilizes a custom **5-Trial Stability Harness** (`src/models/gnn_eval.py`) to measure:
-- **Mean Reciprocal Rank (MRR)**: Precision density in the top-K retrieved results.
-- **Throughput**: Training nodes processed per second.
-- **Inference Latency**: Milliseconds per node for real-time retrieval.
+The project utilizes a custom **5-Trial Stability Harness** (`src/models/gnn_eval.py`) to measure precision density and computational efficiency.
+
+### Visual Performance Artifacts
+![Training Convergence](results/gnn_loss_convergence.png)
+*Figure 1: Shaded Loss Convergence (5-Trial Variance)*
+
+![MRR Stability](results/gnn_mrr_stability.png)
+*Figure 2: MRR Stability Comparison with Error Bars*
+
+![Throughput vs Latency](results/gnn_stress_test.png)
+*Figure 3: Computational Efficiency Frontier*
 
 ### Performance Summary (N=500 nodes)
 | Model | Mean MRR | AUC | Nodes/s |
