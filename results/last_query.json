@@ -1,0 +1,96 @@
+{
+  "query_case": "Kesavananda Bharati v. State of Kerala",
+  "query_year": 1973,
+  "weights_used": {
+    "gnn": 0.5,
+    "text": 0.3,
+    "temporal": 0.2
+  },
+  "results": [
+    {
+      "id": "case_004",
+      "title": "Minerva Mills v. Union of India",
+      "year": 1980,
+      "court_level": 2,
+      "final_score": 0.8281580132028067,
+      "gnn_score": 0.961688756942749,
+      "text_score": 0.6913634538650513,
+      "temp_score": 0.6995230524642289,
+      "confidence": "High",
+      "reasoning": {
+        "common_citations": [],
+        "common_articles": [],
+        "common_statutes": [],
+        "summary": "Relates via 0 articles: "
+      }
+    },
+    {
+      "id": "case_002",
+      "title": "Maneka Gandhi v. Union of India",
+      "year": 1978,
+      "court_level": 2,
+      "final_score": 0.7316105457914978,
+      "gnn_score": 0.9536539316177368,
+      "text_score": 0.33387231826782227,
+      "temp_score": 0.7731092436974789,
+      "confidence": "Medium",
+      "reasoning": {
+        "common_citations": [],
+        "common_articles": [],
+        "common_statutes": [],
+        "summary": "Relates via 0 articles: "
+      }
+    },
+    {
+      "id": "case_008",
+      "title": "ADM Jabalpur v. Shiv Kant Shukla",
+      "year": 1976,
+      "court_level": 2,
+      "final_score": 0.6541320350080888,
+      "gnn_score": 0.7622272968292236,
+      "text_score": 0.33965131640434265,
+      "temp_score": 0.8556149732620321,
+      "confidence": "Medium",
+      "reasoning": {
+        "common_citations": [],
+        "common_articles": [],
+        "common_statutes": [],
+        "summary": "Relates via 0 articles: "
+      }
+    },
+    {
+      "id": "case_012",
+      "title": "MC Mehta v. Union of India",
+      "year": 1987,
+      "court_level": 2,
+      "final_score": 0.648606839983221,
+      "gnn_score": 0.8887026309967041,
+      "text_score": 0.3510834872722626,
+      "temp_score": 0.4946524064171122,
+      "confidence": "Medium",
+      "reasoning": {
+        "common_citations": [],
+        "common_articles": [],
+        "common_statutes": [],
+        "summary": "Relates via 0 articles: "
+      }
+    },
+    {
+      "id": "case_232",
+      "title": "Re: Constitution Matter - 2024 | Full Bench",
+      "year": 1973,
+      "court_level": 1,
+      "final_score": 0.6417760670185089,
+      "gnn_score": 0.742656409740448,
+      "text_score": 0.23482617735862732,
+      "temp_score": 1.0,
+      "confidence": "Medium",
+      "reasoning": {
+        "common_citations": [],
+        "common_articles": [],
+        "common_statutes": [],
+        "summary": "Relates via 0 articles: "
+      }
+    }
+  ]
+}

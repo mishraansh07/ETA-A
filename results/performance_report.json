@@ -1,0 +1,38 @@
+[
+  {
+    "model": "SimpleMLP",
+    "MRR_mean": 0.36529779503977056,
+    "MRR_std": 0.010476407752364605,
+    "AUC_mean": 0.7391639705882354,
+    "AUC_std": 0.033561541590962966,
+    "Latency_ms_per_node": 0.001227569580078125,
+    "Throughput_nodes_per_sec": 1670.1311877777875
+  },
+  {
+    "model": "GraphSAGE",
+    "MRR_mean": 0.10013738461956723,
+    "MRR_std": 0.008165107846464225,
+    "AUC_mean": 0.6075492647058823,
+    "AUC_std": 0.01947099081021527,
+    "Latency_ms_per_node": 0.00737457275390625,
+    "Throughput_nodes_per_sec": 1027.078628067373
+  },
+  {
+    "model": "LegalGAT",
+    "MRR_mean": 0.06286982282455275,
+    "MRR_std": 0.0015621639247751647,
+    "AUC_mean": 0.6026507352941177,
+    "AUC_std": 0.025971866641308464,
+    "Latency_ms_per_node": 0.007066917419433594,
+    "Throughput_nodes_per_sec": 672.1259723406718
+  },
+  {
+    "model": "GCN",
+    "MRR_mean": 0.31288598405471174,
+    "MRR_std": 0.013335999799732736,
+    "AUC_mean": 0.6836051470588236,
+    "AUC_std": 0.010148155205048054,
+    "Latency_ms_per_node": 0.004713726043701172,
+    "Throughput_nodes_per_sec": 1330.2169904287136
+  }
+]
